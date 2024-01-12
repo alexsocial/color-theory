@@ -1,5 +1,10 @@
 package classes;
 
-public class contrast extends color{
-    
+public class Contrast extends Color{
+    public String contrastHex;
+
+    public Contrast(String hc){
+        super(hc);
+
+    }
 }

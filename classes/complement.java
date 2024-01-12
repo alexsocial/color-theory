@@ -1,5 +1,9 @@
 package classes;
 
-public class complement extends color{
-    
+public class Complement extends Color{
+    public String complementHex;
+
+    public Complement(String hc){
+        super(hc);
+    }
 }
